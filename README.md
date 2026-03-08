@@ -1,5 +1,19 @@
 # Microservices Research
 
+## What Are Microservices?
+
+Microservices are a software architecture style in which an application is built as a collection of small, independent services. Each service is responsible for a specific business function and communicates with other services through lightweight APIs or messaging.
+
+Instead of putting all functionality into one large monolithic application, microservices split the system into smaller parts that can be developed, deployed, scaled, and maintained separately.
+
+### Main characteristics of microservices
+
+- Each service focuses on one business capability.
+- Services can be deployed independently.
+- Different services can scale independently.
+- Teams can work on separate services at the same time.
+- A failure in one service does not always bring down the entire system.
+
 ## 1. How Netflix Uses Microservices
 
 Netflix uses microservices as a collection of small, independently deployable services instead of one large monolithic application. Each service is responsible for a specific business capability, such as user accounts, recommendations, content metadata, playback-related features, or operational platform functions.
